@@ -1,0 +1,538 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* पूरी Body */
+
+body {
+    font-family: Arial, "Noto Sans Devanagari", sans-serif;
+
+    background:
+        radial-gradient(
+            circle at top,
+            #fff9df,
+            #f7dfaa,
+            #edc36e
+        );
+
+    min-height: 100vh;
+
+    padding: 15px 10px;
+
+    color: #3b1708;
+}
+
+
+/* Main Page */
+
+.page {
+    width: 100%;
+    max-width: 560px;
+
+    margin: auto;
+
+    background: #fffaf0;
+
+    border: 5px double #b67a16;
+
+    border-radius: 24px;
+
+    overflow: hidden;
+
+    box-shadow:
+        0 10px 35px rgba(80, 35, 0, 0.25);
+}
+
+
+/* Flowers */
+
+.flowers {
+    text-align: center;
+
+    padding: 10px;
+
+    background: #fff0c2;
+
+    font-size: 24px;
+
+    letter-spacing: 4px;
+}
+
+
+/* Header */
+
+.header {
+
+    text-align: center;
+
+    padding: 25px 15px 22px;
+
+    background:
+        linear-gradient(
+            135deg,
+            #fff4ce,
+            #ffdda0
+        );
+
+    border-bottom: 3px solid #b67a16;
+}
+
+
+/* OM */
+
+.om {
+
+    font-size: 55px;
+
+    color: #a51c0e;
+
+    font-weight: bold;
+
+    margin-bottom: 5px;
+}
+
+
+/* Mantra */
+
+.mantra {
+
+    color: #a51c0e;
+
+    font-size: 18px;
+
+    font-weight: bold;
+
+    margin-bottom: 5px;
+}
+
+
+/* Heading */
+
+.header h1 {
+
+    font-size: 34px;
+
+    color: #8d160d;
+
+    margin: 5px 0 12px;
+
+    text-shadow:
+        1px 2px 0 #e7bd64;
+}
+
+
+/* Support */
+
+.support {
+
+    display: inline-block;
+
+    background:
+        linear-gradient(
+            90deg,
+            #8c160c,
+            #b52b12,
+            #8c160c
+        );
+
+    color: white;
+
+    padding: 9px 20px;
+
+    border-radius: 30px;
+
+    font-weight: bold;
+
+    font-size: 16px;
+}
+
+
+/* Stars */
+
+.stars {
+
+    color: #b67a16;
+
+    margin-top: 12px;
+
+    letter-spacing: 8px;
+}
+
+
+/* Main */
+
+main {
+
+    padding: 15px;
+}
+
+
+/* Boxes */
+
+.box {
+
+    background: #fffdf7;
+
+    border: 2px solid #d6a43a;
+
+    border-radius: 18px;
+
+    padding: 18px;
+
+    margin-bottom: 16px;
+
+    box-shadow:
+        inset 0 0 20px rgba(210, 160, 50, 0.08);
+}
+
+
+/* Box Heading */
+
+.box h2 {
+
+    text-align: center;
+
+    color: white;
+
+    background:
+        linear-gradient(
+            90deg,
+            #8d160d,
+            #b92e14,
+            #8d160d
+        );
+
+    padding: 9px 12px;
+
+    border-radius: 25px;
+
+    margin-bottom: 17px;
+
+    font-size: 20px;
+}
+
+
+/* Labels */
+
+label {
+
+    display: block;
+
+    font-weight: bold;
+
+    margin-top: 14px;
+
+    margin-bottom: 7px;
+
+    color: #3d1b0d;
+}
+
+
+/* Input */
+
+input[type="text"],
+input[type="tel"],
+input[type="number"],
+input[type="file"] {
+
+    width: 100%;
+
+    padding: 13px;
+
+    border: 1.5px solid #c9a25b;
+
+    border-radius: 11px;
+
+    background: white;
+
+    font-size: 16px;
+
+    outline: none;
+}
+
+
+/* Input Focus */
+
+input:focus {
+
+    border-color: #8d160d;
+
+    box-shadow:
+        0 0 0 3px rgba(141, 22, 13, 0.08);
+}
+
+
+/* Payment Box */
+
+.payment {
+
+    text-align: center;
+
+    background:
+        linear-gradient(
+            180deg,
+            #fff9e8,
+            #ffefc3
+        );
+}
+
+
+.payment > p {
+
+    margin-bottom: 12px;
+
+    color: #5a4437;
+}
+
+
+/* QR */
+
+.qr {
+
+    width: 300px;
+
+    max-width: 90%;
+
+    display: block;
+
+    margin: 15px auto;
+
+    padding: 7px;
+
+    background: white;
+
+    border-radius: 12px;
+
+    box-shadow:
+        0 4px 15px rgba(0,0,0,0.18);
+}
+
+
+/* Phone Heading */
+
+.payment h3 {
+
+    margin-top: 10px;
+
+    margin-bottom: 8px;
+
+    color: #8d160d;
+}
+
+
+/* Phone Numbers */
+
+.phone {
+
+    background: #f0ddff;
+
+    border: 2px solid #8d4bb5;
+
+    color: #4a1769;
+
+    border-radius: 12px;
+
+    padding: 8px;
+
+    margin: 7px 0;
+
+    font-size: 19px;
+
+    font-weight: bold;
+}
+
+
+/* Small Text */
+
+.small {
+
+    font-size: 13px;
+
+    margin-top: 12px;
+
+    color: #654c3d;
+}
+
+
+/* Checkbox */
+
+.confirm {
+
+    display: flex;
+
+    align-items: flex-start;
+
+    gap: 9px;
+
+    line-height: 1.45;
+
+    font-weight: normal;
+}
+
+
+.confirm input {
+
+    width: 20px;
+
+    height: 20px;
+
+    margin-top: 2px;
+
+    flex-shrink: 0;
+}
+
+
+/* Submit Button */
+
+button {
+
+    width: 100%;
+
+    border: none;
+
+    border-radius: 14px;
+
+    padding: 15px;
+
+    margin-top: 12px;
+
+    background:
+        linear-gradient(
+            135deg,
+            #8c130b,
+            #c63a13
+        );
+
+    color: white;
+
+    font-size: 19px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    box-shadow:
+        0 5px 12px rgba(120, 24, 5, 0.25);
+}
+
+
+button:hover {
+
+    transform: translateY(-1px);
+
+    opacity: 0.93;
+}
+
+
+/* Notice */
+
+.notice {
+
+    background: #fff0c4;
+
+    border: 2px solid #d7a43a;
+
+    border-radius: 18px;
+
+    padding: 17px;
+
+    margin-bottom: 16px;
+}
+
+
+.notice h3 {
+
+    text-align: center;
+
+    color: #8d160d;
+
+    margin-bottom: 10px;
+}
+
+
+.notice p {
+
+    margin: 7px 0;
+
+    line-height: 1.5;
+}
+
+
+/* Footer */
+
+footer {
+
+    text-align: center;
+
+    background:
+        linear-gradient(
+            135deg,
+            #8d160d,
+            #b52b13
+        );
+
+    color: white;
+
+    padding: 23px 15px;
+}
+
+
+.diya {
+
+    font-size: 35px;
+
+    margin-bottom: 5px;
+}
+
+
+footer h2 {
+
+    margin-bottom: 7px;
+}
+
+
+footer p {
+
+    margin-top: 5px;
+}
+
+
+/* Mobile */
+
+@media (max-width: 500px) {
+
+    body {
+
+        padding: 7px;
+    }
+
+    .page {
+
+        border-width: 3px;
+
+        border-radius: 17px;
+    }
+
+    .header h1 {
+
+        font-size: 28px;
+    }
+
+    .om {
+
+        font-size: 45px;
+    }
+
+    .qr {
+
+        width: 250px;
+    }
+
+    .box {
+
+        padding: 14px;
+    }
+}
